@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.step-form{
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.step {
+  margin-bottom: 20px;
+}
+
+.step h2 {
+  font-size: 1.5rem;
+}
+
+.step-content {
+  margin-top: 10px;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stepActive{
+  background-color: greenyellow;
+  margin-left: 10px;
+}
+
+.stepInactive{
+  background-color: #ccc;
+  margin-left: 10px;
+}
+
+.step-bread {
+  display: flex;  
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor:not-allowed;
+}
